@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+}
+
+#header {
+    background-color: #031d49;
+}
+
+.container {
+    margin: 0 auto;
+    /* border: 1px solid red; */
+    width: 80%;
+    overflow: hidden;
+}
+
+#logo {
+    width: 20%;
+    overflow: hidden;
+    float: left;
+    height: 100px;
+}
+
+#meni {
+    width: 80%;
+    float: left;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    height: 100px;
+    justify-content: right;
+}
+
+#logo img {
+    height: 100px;
+    width: 100px;
+    overflow: hidden;
+}
+
+#meni ul li {
+    display: inline;
+    margin: 0 20px;
+}
+
+#meni ul li a {
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+#meni ul li a:link {
+    color: #365096;
+}
+
+
+#meni ul li a:visited {
+    color: #a8cadf;
+}
+
+#meni ul li a:hover {
+    color: #69b5e9;
+}
+
+#pozadina {
+    background-image: url(slike/pozadina.jpg);
+    background-repeat: no-repeat;
+    background-size: 1920px 720px;
+}
+
+#pozadinatext {
+    height: 720px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#pozadinatext p {
+    text-transform: uppercase;
+    font-size: 80px;
+    font-weight: bold;
+    color: #f4beb9;
+}
+
+#slike {
+    background-color: #031d49;
+    overflow: hidden;
+}
+
+#slika1 img {
+    height: 500px;
+    width: 480px;
+}
+
+#slika2 img {
+    height: 500px;
+    width: 480px;
+}
+
+#slika3 img {
+    height: 500px;
+    width: 480px;
+}
+
+#slika1 {
+    float: left;
+    width: 33%;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 10px;
+    background-color: #212741;
+}
+
+#slika2 {
+    float: left;
+    width: 33%;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 10px;
+    background-color: #212741;
+}
+
+#slika3 {
+    float: left;
+    width: 34%;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 10px;
+    background-color: #212741;
+}
+
+#slika1 p {
+    color: #d4dcf7;
+}
+
+#slika2 p {
+    color: #d4dcf7;
+}
+
+#slika3 p {
+    color: #d4dcf7;
+}
+
+#map {
+    background-color: #031d49;
+    overflow: hidden;
+}
+
+#mapa {
+    height: 600px;
+}
+
+#mapa iframe {
+    width: 100%;
+    height: 100%;
+}
+
+#autor {
+    background-color: #031d49;
+    overflow: hidden;
+}
+
+#autor1 {
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+    color: #d4dcf7;
+    background-color: #031d49;
+}
+
